@@ -1,12 +1,11 @@
-# sensor
-ドップラーセンサーのプログラム
+# doppler sensor
 
 ```
 $ node -v
 v6.11.2
 ```
 
-install Node 6.x
+Install Node 6.x
 ```
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs 
@@ -20,7 +19,7 @@ sudo npm install -g node-pre-gyp
 sudo npm install serialport --unsafe-perm
 ```
 
-install node modules
+Install node modules
 ```
 npm install elasticsearch moment
 ```
